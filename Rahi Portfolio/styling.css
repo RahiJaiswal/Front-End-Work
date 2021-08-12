@@ -1,0 +1,328 @@
+#body{
+background-color: #efefef;
+padding: 0;
+margin: 0;
+}
+
+
+/*Navbar*/
+.container{
+width: 85%;
+margin: 0 7.5%;
+}
+
+.navbar{
+display: flex;
+background-color: #343A40;
+justify-content: space-between;
+}
+
+.part-1{
+width: 40%;
+}
+
+.part-2{
+width: 60%;
+display: flex;
+margin: 0;
+}
+
+.brand-name{
+font-size: 25px;
+font-family: oswald,sans-serif;
+color: white;
+font-weight: 500;
+padding: 12px;
+}
+
+.links{
+font-size: 16px;
+font-weight: 400;
+color: white;
+padding-right: 4%;
+font-family: 'Open sans',sans-serif;
+}
+
+.navbar-links{
+width: 100%;
+}
+
+.navbar-links ul{
+width: 100%;
+padding: 0;
+display: flex;
+justify-content: flex-end;
+list-style: none;
+padding-top: 5px;
+}
+
+.links a{
+text-decoration: none;
+color: grey;
+}
+.links a:hover{
+color: white;
+}
+.links a:active{
+color: white;
+}
+/* End of Navbar*/
+
+
+.page-content{
+width: 100%;
+margin: 30px 0;
+font-family: oswald,sans-serif;
+}
+
+#brand{
+background-color: black;
+text-align: center;
+color: white;
+}
+#first-section{
+padding: 10%;
+}
+
+#first-section img{
+width: 100px;
+height: 100px;
+border-radius: 50%;
+border: 5px solid white;
+margin: 5px 0;
+}
+
+#first-section h3{
+font-size: 30px;
+margin: 5px 0;
+font-weight: 700;
+}
+.logos i{
+margin: 2% 1%; 
+font-size: 25px;
+color: white;
+}
+
+.download-cv{
+margin: 5%;
+}
+
+.download-cv span{
+width: 25%;
+padding: 3% 6%;
+color: white;
+border: 2px solid white;
+}
+
+.link-heading{
+font-size: 40px;
+color: #2c73d2;
+text-align: center;
+margin-bottom: 35px;
+text-transform: uppercase;
+}
+
+.about-us-details{
+display: flex;
+justify-content: space-between;
+}
+
+.about-information-box{
+background-color: white;
+width: 48%;
+box-shadow: 0 2px 5px 0 rgba(0,0,0,.15), 0 2px 10px 0 rgba(0,0,0,.11)
+}
+
+.description-heading{
+background-color: #2c73d2;
+margin: 0 15%;
+text-align: center;
+position: relative;
+top: -22px;
+font-size: 25px;
+text-transform: uppercase;
+color: white;
+padding: 5px 0;
+}
+.description-heading p{
+margin: 0;
+}
+
+.box{
+padding: 0 20px 30px 20px;
+font-size: 15px;
+font-weight: 200;
+}
+
+.box p{
+letter-spacing: 0.5px;
+margin: 0;
+}
+
+.box table tr td{
+padding-right: 15px;
+letter-spacing: 0.5px;
+}
+
+.skills-sets-description{
+display: flex;
+justify-content: space-between;
+}
+
+.skills-sets-box{
+width: 48%;
+background-color: white;
+box-shadow: 0 2px 5px 0 rgba(0,0,0,.15), 0 2px 10px 0 rgba(0,0,0,.11)
+}
+
+.experience-description-section{
+display: flex;
+justify-content: space-between;
+}
+
+.experience-box{
+width: 30%;
+background-color: white;
+box-shadow: 0 2px 5px 0 rgba(0,0,0,.15), 0 2px 10px 0 rgba(0,0,0,.11);
+}
+
+.experience-description h3{
+    color: #2c73d2;
+    text-align: center;
+    }
+
+.upper-exp ul{
+list-style: none;
+display: flex;
+justify-content: space-between;
+font-size: 12px;
+font-weight: 200;
+padding: 0;
+margin: 5px 0;
+height: 1rem;
+color: grey;
+}
+
+#services-given{
+display: flex;
+justify-content: space-between;
+}
+
+.services-box {
+width: 30%;
+background-color: white;
+box-shadow: 0 2px 5px 0 rgba(0,0,0,.15), 0 2px 10px 0 rgba(0,0,0,.11)
+}
+
+
+.services-logos i{
+font-size: 60px;
+margin: 10px 40%;
+}
+
+.box h4{
+text-align: center;
+font-family: PT Sans Narrow,sans-serif;
+font-size: 20px;
+font-weight: 700;
+
+}
+
+.contact-us-description{
+display: flex;
+justify-content: space-between;
+}
+
+.contact-box{
+align-items: center;
+text-align: center;
+width: 30%;
+}
+
+.contact-logos i{
+font-size: 40px;
+text-align: center;
+margin: 10px 30%;
+}
+
+@media only screen and (max-width:600px){
+.contact-us-description{
+flex-direction: column;
+}
+.contact-box{
+align-items: center;
+text-align: center;
+width: 100%;
+}
+#services-given{
+flex-direction: column;
+}
+.services-box {
+width: 100%;
+margin-bottom: 20px;
+}
+}
+
+@media only screen and (max-width:800px){
+.experience-description-section{
+flex-direction: column;
+}
+.experience-box{
+width: 100%;
+margin-bottom: 20px;
+}
+.skills-sets-description{
+flex-direction: column;
+}
+.skills-sets-box{
+width: 100%;
+margin-bottom: 40px;
+}
+.about-us-details{
+flex-direction: column;
+}
+.about-information-box{
+width: 100%;
+margin-bottom: 40px;
+padding: 15px;
+}
+}
+
+
+/*skills*/
+#skill-table{
+width: 100%;
+padding: 2px;
+}
+.skill-row{
+padding: 2px;
+}
+.column-1{
+width: 20%;
+font-size: 60px;
+text-align: center;
+}
+.column-2{
+width: 80%;
+}
+.skill-details{
+display: flex;
+justify-content: space-between;
+padding: 5px;
+}
+.progress{
+display: flex;
+justify-content: space-between;
+margin: 5px;
+}
+.color-1{
+width: 80%;
+background-color: #2c73d2;
+height: 1rem;
+}
+.color-2{
+width: 20%;
+background-color: grey;
+}
+
+
